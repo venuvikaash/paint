@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Triangle Canvas</title>
+    <link href="sheet.css" rel="stylesheet">
+</head>
+
+<body>
+<canvas id="canvas" width="800" height="600"></canvas>
+
+<div id="controls">
+    <p><label>Fill: <input id="fillBox" type="checkbox" checked="checked"></label></p>
+
+    <div class="colors">
+        <p><label>Fill Color: <input id="fillColor" type="color" value="#00000"></label></p>
+        <p><label>Fill Canvas: <input id="backgroundColor" type="color" value="#FFFFFF" ></label></p>
+        <p><label>Stroke Color: <input id="strokeColor" type="color"></label></p>
+    </div>
+
+    <p><label>Polygon Angle: <input id="polygonAngle" type="range" step="22.5" min="0" max="90"></label></p>
+
+    <p><input id="clearCanvas" type="button" value="Clear Canvas"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
